@@ -31,15 +31,15 @@ h6 {
 }
 
 .h1 {
-  @apply text-[64px] leading-none xl:text-[72px] xl:leading-[76px];
+  @apply text-[64px] leading-none xl:text-7xl xl:leading-[76px];
 }
 
 .h2 {
-  @apply text-[48px] leading-[54px];
+  @apply text-5xl leading-[54px];
 }
 
 .h3 {
-  @apply text-[36px] leading-[48px];
+  @apply text-4xl leading-[48px];
 }
 
 .h4 {
@@ -55,21 +55,22 @@ a {
 }
 
 .container {
-  @apply px-[15px];
+  @apply max-w-300 px-[15px];
 }
 
 .btn {
-  @apply bg-accent min-w-[178px] rounded-tl-[30px] rounded-bl-[30px] rounded-tr-[4px] rounded-br-[24px] font-primary uppercase tracking-[1px] h-[58px] pl-8 pr-6 flex justify-center items-center text-white;
+  @apply bg-accent min-w-44.5 rounded-tl-[30px] rounded-bl-[30px] rounded-tr-[4px] rounded-br-[24px] font-primary uppercase tracking-[1px] h-14.5 pl-8 pr-6 flex justify-center items-center text-white;
 }
 
 .input {
-  @apply h-[54px] bg-white rounded-full px-6;
+  @apply h-13.5 bg-white rounded-full px-6;
 }
 
 .textarea {
-  @apply h-[120px] rounded-[20px] px-6 pt-4 resize-none;
+  @apply h-30 bg-white rounded-[20px] px-6 pt-4 resize-none;
 }
 
-.input .textarea {
-  @apply outline-none ring-1 ring-accent/80 focus:ring-1 focus:ring-accent font-primary text-sm uppercase placeholder:text-primary text-primary;
+.input,
+.textarea {
+  @apply outline-none ring-1 ring-accent/50 focus:ring-1 focus:ring-accent font-primary text-sm uppercase placeholder:text-primary text-primary focus:shadow-md;
 }

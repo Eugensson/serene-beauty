@@ -1,9 +1,9 @@
-const Home = () => {
+const Contact = () => {
   return (
     <div className="min-h-screen flex items-center overflow-x-hidden">
-      homepage
+      Contact
     </div>
   );
 };
 
-export default Home;
+export default Contact;
