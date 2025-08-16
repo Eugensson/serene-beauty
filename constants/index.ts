@@ -21,6 +21,27 @@ export const STAT_LIST = [
   { countNum: 97, countText: "%", text: "Natural Ingredients" },
 ];
 
+export const TREATMENT_LIST = [
+  {
+    title: "Classic facial",
+    description:
+      "Deep cleansing, exfoliation and hydration for a refreshed andrevitalized complexion.",
+  },
+  {
+    title: "Chemical peel",
+    description: "Exfoliating treatment to improve skin texture and tone.",
+  },
+  {
+    title: "Eyebrow waxing/shaping",
+    description:
+      "Deep cleansing, exfoliation and hydration for a refreshed and revitalized complexion.",
+  },
+  {
+    title: "HydraFacial",
+    description: "Multi-step treatment for instance hydration and glow.",
+  },
+];
+
 export const animations = {
   initial: { top: "0%" },
   animate: { top: "-100%" },
