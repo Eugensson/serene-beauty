@@ -15,6 +15,12 @@ export const SOCIAL_LINKS = [
   { name: "Instagram", href: "https://www.instagram.com", icon: FaInstagram },
 ];
 
+export const STAT_LIST = [
+  { countNum: 13, countText: "", text: "Years on Market" },
+  { countNum: 35, countText: "k+", text: "Happy Clients" },
+  { countNum: 97, countText: "%", text: "Natural Ingredients" },
+];
+
 export const animations = {
   initial: { top: "0%" },
   animate: { top: "-100%" },

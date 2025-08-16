@@ -59,7 +59,7 @@ a {
 }
 
 .btn {
-  @apply bg-accent min-w-44.5 rounded-tl-[30px] rounded-bl-[30px] rounded-tr-[4px] rounded-br-[24px] font-primary uppercase tracking-[1px] h-14.5 pl-8 pr-6 flex justify-center items-center text-white;
+  @apply bg-accent min-w-44.5 rounded-tl-[30px] rounded-bl-[30px] rounded-tr-[4px] rounded-br-[24px] font-primary uppercase tracking-[1px] h-14.5 pl-8 pr-6 flex justify-center items-center text-white cursor-pointer;
 }
 
 .input {
