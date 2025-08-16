@@ -42,7 +42,7 @@ export const TopBar = () => {
               <Link
                 href="mailto:info@serenebeauty.com"
                 rel="noreferrer noopener"
-                aria-label="Send us an email"
+                aria-label="Send an email to Serene Beauty at info@serenebeauty.com"
                 className="flex items-center gap-2 text-white"
               >
                 <IoMdMail />
